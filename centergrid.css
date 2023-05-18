@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  width: 120px;
+  height: 120px;
+  background-color: skyblue;
+  border: 2px solid black;
+}
+
+/* Alternatively we can use the short hand for the two properties
+ .container{
+    height: 100vh;
+    display: grid;
+    
+    place-content: center;
+ } */
+/* Alternatively we can use the short hand for the two properties
+ .container{
+    height: 100vh;
+    display: grid;
+    
+    place-items: center;
+ } */
+
+/* .box-1{
+    centering with top,left and transform positioni*	
+    
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+    } */
+
+/* using margin auto to center a div horizontally and vertically
+    .box-1{
+          
+         margin: auto auto;	
+       } */

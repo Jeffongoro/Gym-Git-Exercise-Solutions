@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+[class^="box-"] {
+  display: grid;
+  place-items: center;
+  border: 3px solid rebeccapurple;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+  grid-template-areas:
+    "A A A A A A A A A A A A"
+    "B B B B B B B B C C C C";
+}
+
+.box-1 {
+  grid-area: A;
+}
+
+.box-2 {
+  grid-area: B;
+}
+.box-3 {
+  grid-area: C;
+}
